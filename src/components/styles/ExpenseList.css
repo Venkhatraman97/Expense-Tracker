@@ -1,0 +1,35 @@
+.expense-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .expense-list__fallback {
+    text-align: center;
+    color: gray;
+  }
+  
+  .expense-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+  }
+  
+  .expense-item__description h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .expense-item__price {
+    background: #ff6363;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+  }
+  
